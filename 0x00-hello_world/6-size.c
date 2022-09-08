@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main - main block
- *printf
- *sizeof
- *return: 0
+ * main - main block
+ * printf
+ * sizeof
+ * Return: 0
  */
 int main(void)
 {
