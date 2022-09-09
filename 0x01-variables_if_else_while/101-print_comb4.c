@@ -3,7 +3,7 @@
 /**
  * main - main file
  * comb 4
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
