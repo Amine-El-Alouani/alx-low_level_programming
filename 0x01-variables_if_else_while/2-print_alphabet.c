@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - main block
  * 
@@ -10,9 +10,10 @@ int main(void)
 {	
 int x;
 
-for(x = 'a'; x <='z'; x++) 
+for(x = 'A'; x <='Z'; x++) 
 {
-	putchar(x);
+	int lowerX = tolower(x);
+	putchar(lowerX);
 }
 return 0;
 }
