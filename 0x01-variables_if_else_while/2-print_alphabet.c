@@ -8,10 +8,13 @@
 int main(void)
 {
 char x;
+char xLower;
+
 for (x = 'A'; x <= 'Z'; x++)
 {
-	char xLower = tolower(x);
+        xLower = tolower(x);
 	putchar(xLower);
 }
+putchar('\n');
 return (0);
 }
