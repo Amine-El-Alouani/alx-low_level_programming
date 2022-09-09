@@ -12,7 +12,7 @@ char xLower;
 
 for (x = 'A'; x <= 'Z'; x++)
 {
-        xLower = tolower(x);
+	xLower = tolower(x);
 	putchar(xLower);
 }
 putchar('\n');
