@@ -10,8 +10,8 @@ int main(void)
 char x;
 for (x = 'A'; x <= 'Z'; x++)
 {
-	x = tolower(x);
-	putchar(x);
+	char xLower = tolower(x);
+	putchar(xLower);
 }
-return 0;
+return (0);
 }
