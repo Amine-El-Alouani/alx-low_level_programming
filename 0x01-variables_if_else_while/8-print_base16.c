@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - main block
+ * Hexadecimal
+ * Return: 0
+ */
 
 int main(void)
 {
