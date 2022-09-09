@@ -11,7 +11,7 @@ int n;
 	{
 		putchar(n);
 		if (n == '9')
-		{       	
+		{
 			continue;
 		} else
 		{
