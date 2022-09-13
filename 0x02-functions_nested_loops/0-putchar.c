@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - main block
  * _putchar
@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char putchar[8] = "_putchar";
+	int i = 0;
+
+	while (i < 8)
+	{
+		_putchar(putchar[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
