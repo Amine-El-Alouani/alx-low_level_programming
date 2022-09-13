@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alphabet task - 10x alphabet
+ * alphabet_task - prints alphabet 10 times in row
  * Return: void
  */
 
