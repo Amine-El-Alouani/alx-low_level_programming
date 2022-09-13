@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - cheacking is alpha 
- * @c - Cheacking parametre
+ * _isalpha - cheacking is alpha
+ * @c: Checking parameter
  * Return:void
  */
 int _isalpha(int c)
