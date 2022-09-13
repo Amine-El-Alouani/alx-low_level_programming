@@ -2,8 +2,8 @@
 
 /**
  * _abs: return absolute value
- * @r: the value
- * Return:void
+ * @r : the value
+ * Return:0 or 1
  */
 
 int _abs(int r)
