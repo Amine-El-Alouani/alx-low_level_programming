@@ -4,7 +4,7 @@
  * Alphabet game
  * Return: 0
  */
-void print_alphabet(void) /*Alphabet game*/    
+void print_alphabet(void)/*Alphabet game*/    
 {
 char i;
 	for (i = 'a'; i <= 'z'; i++)
