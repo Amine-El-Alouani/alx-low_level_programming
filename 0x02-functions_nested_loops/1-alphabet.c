@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * main - main block
- * Alphabet game
+ * Alphabet game - Task 1
  * Return: 0
  */
-void print_alphabet(void)/*Alphabet game*/    
+void print_alphabet(void)
 {
 char i;
 	for (i = 'a'; i <= 'z'; i++)
