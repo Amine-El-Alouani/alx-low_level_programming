@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * alphabet x ten
+ * alphabet task - 10x alphabet
  */
 
 void print_alphabet_x10(void)
@@ -14,7 +14,7 @@ int j;
 		{
 			_putchar(j);
 		}
-		_putchar('\n');	
+		_putchar('\n');
 		i++;
 	}
 }
