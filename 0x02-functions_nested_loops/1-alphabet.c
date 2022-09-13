@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * main - main block
  * Alphabet game - Task 1
  * Return: 0
  */
