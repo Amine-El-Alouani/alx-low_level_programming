@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * alphabet - prints alphabet 10 times in row
- *
+ * prints alphabet 
+ * 10 times alphabet
  * Return: void
  */
 
