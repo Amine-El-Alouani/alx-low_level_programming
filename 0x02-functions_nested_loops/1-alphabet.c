@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * Alphabet game - Task 1
- * Return: 0
+ * print_alphabet - Entry point 
  */
 void print_alphabet(void)
 {
