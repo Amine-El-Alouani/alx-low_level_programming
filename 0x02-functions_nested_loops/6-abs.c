@@ -3,7 +3,8 @@
 /**
  * _abs: return absolute value
  * @r : the value
- * Return:0 or 1
+ * Description: abs value
+ * Return: r
  */
 
 int _abs(int r)
