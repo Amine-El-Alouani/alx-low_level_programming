@@ -15,8 +15,11 @@ int col;
 		for (col = 0; col <= 9; col++)
 		{
 			if (row * col < 10)
-		       	{
+			{
+				if (col != 0)
+				{
 				_putchar(' ');
+				}
 				_putchar(((row * col) % 10) + '0');
 			}
 			else
