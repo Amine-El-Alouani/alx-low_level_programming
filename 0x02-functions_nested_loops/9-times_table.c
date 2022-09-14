@@ -16,6 +16,7 @@ int col;
 		{
 			if (row * col < 10)
 		       	{
+				_putchar(' ');
 				_putchar(((row * col) % 10) + '0');
 			}
 			else
