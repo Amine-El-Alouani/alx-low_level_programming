@@ -2,8 +2,7 @@
 
 /**
  * print_numbers - print numbers from 0 to 10
- * Description: func return numbs
- * Return: nums
+ * Return: 0
  */
 
 void print_numbers(void)
