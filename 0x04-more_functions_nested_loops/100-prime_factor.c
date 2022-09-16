@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-unsigned int long f = 612852475143, g = (int) sqrt(n);
+unsigned int long f = 612852475143, g = (int) sqrt(f);
 	while (1)
 	{
 		if (f % g == 0)
