@@ -12,7 +12,7 @@ unsigned int long f = 612852475143, g = (int) sqrt(n);
 	{
 		if (f % g == 0)
 		{
-			printf("%lu \n", n / a);
+			printf("%lu \n", f / g);
 			break;
 		}
 		a--;
