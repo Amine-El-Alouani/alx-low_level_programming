@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * print_triangles - func of printing triangles
+ * print_triangle - func of printing triangles
  * @size: input value
  * Description: Triangles
  * Return: none
@@ -10,6 +11,7 @@ void print_triangle(int size)
 {
 	int i, n;
 	int z = size - 1;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
