@@ -15,7 +15,7 @@ unsigned int long f = 612852475143, g = (int) sqrt(n);
 			printf("%lu \n", f / g);
 			break;
 		}
-		a--;
+		g--;
 	}
 return (0);
 }
