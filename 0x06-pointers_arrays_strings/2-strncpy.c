@@ -4,7 +4,7 @@
  * _strncpy - void func
  * @dest: input one
  * @src: input two
- * @n: input - input three
+ * @n: input three
  * Description: copy string
  * Return: value
  */
@@ -22,6 +22,7 @@ char *_strncpy(char *dest, char *src, int n)
 	while (j < n)
 	{
 		dest[j] = '\0';
+		j++;
 	}
 	return (dest);
 }
