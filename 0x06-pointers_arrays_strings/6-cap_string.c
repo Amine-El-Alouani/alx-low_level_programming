@@ -10,7 +10,7 @@
 char *cap_string(char *s)
 {
 	int i, j, f;
-	char s_chars[] = {' ', '\n', '\t', '.', ';', '!', '?', '"', '(', ',', ')', '{', '}',};
+	char s_chars[] = {' ', '\n', '\t', '.', ';', '!', '?', '"', '(', ',', ')', '{', '}', };
 
 	while (s[i] != '\0')
 	{
@@ -20,6 +20,10 @@ char *cap_string(char *s)
 	{
 		for (f = 0; f < 13; f++)
 		{
+			if (s[j] == '\t')
+			{
+				s[j] = ' ';
+			}
 			if (s[j] == s_chars[f]){	
 				if (s[j + 1] >= 'a' && s[j + 1] <= 'z')
 				{
