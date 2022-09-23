@@ -11,7 +11,7 @@ char *rot13(char *r)
 	int i,j;
 	char n_chars[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot_chars[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	
+
 	for (i = 0; r[i] != '\0'; i++)
 	{
 		for (j = 0; j < 52; j++)
