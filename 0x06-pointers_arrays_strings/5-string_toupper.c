@@ -1,6 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
+/**
+ * string_toupper - char function
+ * @c: input val
+ * Description: string to upper
+ * Return: value
+ */
 char *string_toupper(char *c)
 {
 	int i,len;
