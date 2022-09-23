@@ -20,7 +20,7 @@ char *cap_string(char *s)
 	{
 		for (f = 0; f < 13; f++)
 		{
-			if (s[j] == s_chars[f]){	
+			if (s[j] == s_chars[f]){
 				if (s[j + 1] >= 'a' && s[j + 1] <= 'z')
 				{
 					s[j + 1] -= 32;
@@ -28,6 +28,5 @@ char *cap_string(char *s)
 			}
 		}
 	}
-	s[i] = '\0';
 	return (s);
 }
