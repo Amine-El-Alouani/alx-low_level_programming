@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * memcpy - char func
+ * _memcpy - char func
  * @dest: input one
  * @src: input two
  * @n: input three
