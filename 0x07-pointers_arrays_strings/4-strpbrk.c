@@ -4,14 +4,13 @@
  * _strpbrk - char function
  * @s: input one
  * @accept: input two
- * Description: search a string for any of a set of bytes
+ * Description: search to match strings
  * Return: value
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i;
-	int f;
+	int i, f;
 	char *x;
 
 	for (i = 0; s[i] != '\0'; i++)
