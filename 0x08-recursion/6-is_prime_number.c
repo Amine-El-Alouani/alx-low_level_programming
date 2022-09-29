@@ -29,10 +29,10 @@ int check_num(int f, int n)
  * is_prime_number - int function
  * @n: input
  * Description check number
- * Return; binary
+ * Return: binary
  */
 
 int is_prime_number(int n)
 {
-	return(check_num(2, n));
+	return (check_num(2, n));
 }
