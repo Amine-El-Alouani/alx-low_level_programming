@@ -27,7 +27,7 @@ int is_palindrome(char *s)
 {
 	int e = last(s);
 
-	return (check(s, 0, end - 1, e % 2));
+	return (check(s, 0, e - 1, e % 2));
 }
 
 /**
