@@ -9,8 +9,8 @@
 
 char *_strdup(char *str)
 {
-	int i, j;
-	char st;
+	unsigned int i, j;
+	char *st;
 
 	if (str == NULL)
 	{
