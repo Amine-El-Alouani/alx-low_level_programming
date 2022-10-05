@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * int_check
+ * int_check - int func
  * @s: input
  * Return: value
  */
@@ -26,6 +26,7 @@ int int_check(const char *s)
  * main - int func
  * @argc: input one
  * @argv: input two
+ * Description: give back the change
  * Return: 0
  */
 
