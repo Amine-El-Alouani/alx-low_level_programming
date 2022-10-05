@@ -10,6 +10,7 @@
 int int_check(const char *s)
 {
 	int i = 0;
+
 	while (s[i] != '\0')
 	{
 		if (s[i] < '0' || s[i] > '9')
@@ -33,7 +34,8 @@ int main(int argc, char *argv[])
 	int i = 0, my_c = 0, c = 0;
 	int cs[] = {25, 10, 5, 2, 1};
 
-	if (argc != 2) {
+	if (argc != 2)
+	{
 		printf("Error\n");
 		return (1);
 	}
