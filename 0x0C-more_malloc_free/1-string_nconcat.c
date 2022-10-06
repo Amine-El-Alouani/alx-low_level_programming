@@ -2,6 +2,23 @@
 #include <stdlib.h>
 
 /**
+ * _strlen - int func
+ * @str: input
+ * Return: int
+ */
+
+unsigned int _strlen(char *str)
+{
+	unsigned int i = 0;
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
+}
+
+/**
  * string_nconcat - char func
  * @s1: input
  * @s2: input
@@ -11,7 +28,7 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int j = 0, i = 0, f;
+	unsigned int j, i, f;
 	char *s;
 
 	if (s1 == NULL)
@@ -22,14 +39,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
-	while (s1[i] != '\0')
-	{
-		i++;
-	}
+	i = _strlen(s1);
+	j = _strlen(s2);
 	while (s2[j] != '\0')
 	{
 		j++;
-	}	
+	}
 	if (n >= j)
 	{
 		n = j;
