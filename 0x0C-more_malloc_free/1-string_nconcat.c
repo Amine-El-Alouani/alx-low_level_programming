@@ -11,7 +11,7 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int j = 0, i = 0, f;
+	unsigned int j = 0, i = 0, f, d;
 	char *s;
 
 	if (s1 == NULL)
@@ -43,7 +43,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	if (n >= j)
 	{
-		for (f = 0; f < i + j; f++)
+		for (f = 0, d = 0; f < i + j; f++)
 		{
 			if (f < i)
 			{
@@ -51,14 +51,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-				s[f] = s2[f - i];
+				s[f] = s2[d];
+				d++;
 			}
 		}
 	}
 	else
 	{
 		s = realloc(s, sizeof(char) * (n + i) + 1);
-		for (f = 0; f < i + n; f++)
+		for (f = 0, d = 0; f < i + n; f++)
 		{
 			if (f < i)
 			{
@@ -66,7 +67,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			}
 			else
 			{
-				s[i] = s2[f - i];
+				s[i] = s2[d];
+				d++;
 			}
 		}
 	}
