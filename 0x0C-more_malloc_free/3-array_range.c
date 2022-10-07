@@ -18,17 +18,16 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	s = malloc(sizeof(int) * (max - min) + 1);
-
+	s = (int *)calloc(max, sizeof(int *));
 	if (s == NULL)
 	{
 		return (NULL);
 	}
 
-	for (i = min; i <= max; i++)
+	for (i = 0; i <= max; i++)
 	{
-		s[i] = i;
+		s[i] = min;
+		min++;
 	}
-	s[i] = '\0';
 	return (s);
 }
