@@ -3,7 +3,7 @@
 /**
  * get_op_func - int func
  * @s: param
- * Return val
+ * Return: val
  */
 
 int (*get_op_func(char *s))(int, int)
@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int, int)
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
-        	{"/", op_div},
+		{"/", op_div},
 		{"%", op_mod},
 		{NULL, NULL}
 	};
