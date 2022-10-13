@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_then_all - int func
+ * sum_them_all - int func
  * @n: param
  * Return: value
  */
@@ -23,5 +23,5 @@ int sum_them_all(const unsigned int n, ...)
 		sum += va_arg(ptr, unsigned int);
 	}
 
-	return sum;
+	return (sum);
 }
