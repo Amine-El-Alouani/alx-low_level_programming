@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	o = argv[2];
-
 	func = get_op_func(o);
 
 	if (func == NULL)
