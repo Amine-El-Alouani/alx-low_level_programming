@@ -5,7 +5,6 @@
  * @format: param
  * Return: nothing.
  */
-
 void print_all(const char * const format, ...)
 {
 	va_list args;
@@ -18,7 +17,6 @@ void print_all(const char * const format, ...)
 		printf("\n");
 		return;
 	}
-
 	while (format[i])
 	{
 		switch (format[i])
@@ -32,10 +30,8 @@ void print_all(const char * const format, ...)
 			case 'f':
 				printf("%f", (float) va_arg(args, double));
 				break;
-			case 's':				
-
+			case 's':
 				temp = va_arg(args, char *);
-				
 				if (temp == NULL)
 				{
 					printf("(nil)");
