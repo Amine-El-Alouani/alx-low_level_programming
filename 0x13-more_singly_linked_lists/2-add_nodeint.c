@@ -6,6 +6,7 @@
  * add_nodeint - struct func
  * @head: param
  * @n: param
+ * Return: val or NULL
  */
 
 listint_t *add_nodeint(listint_t **head, const int n)
